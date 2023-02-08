@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cont{
+  background-color: rgb(68, 70, 72);
+  width:100%;
+  margin:0;
+  height:15vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+h1{
+  color:rgb(245, 243, 243);
+  margin:0;
+  
+}
+.footer{
+ 
+  margin-top: 65px;
+  text-align: center;
+  background-color: rgb(68, 70, 72);
+  color:rgb(245, 243, 243);
+  height:5vh;
+  padding: 10px;
+  font-weight: bold;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.card1 {
+  width: 400px;
+  height: 450px;
+  margin-top:40px;
+  background-color: rgb(69, 67, 56);
+  border-radius: 15px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  color: rgb(244, 236, 236);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.obj1,
+.obj2,
+.obj3,
+.obj4,
+.obj5,
+.obj6,
+.obj7,
+.obj8,
+.obj9,
+.obj10,
+.obj11 {
+  padding: 20px;
+  
+}
+input{
+  margin-top: 15px;
+  border-radius: 3px;
+  width:100%;
+  height: 25px;
+  font-size:18px
+}
+button{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background-color: rgb(122, 231, 231);
+  border: none;
+  width:10em;
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px;
+  font-size: 2vh;
+}
+button:hover{
+  background-color: rgb(16, 134, 134);
+}
+h3{
+  text-align: center;
+  font-weight: bold;
+  font-size:4vh;
+  margin-top: 10px;
+
+}
+.btn{
+  border-radius: 50%;
+  height:40px;
+  width:40px;
+  font-size: 25px;
+  
+}
+.btn1{
+  margin-left: 70%;
+  border-radius: 50%;
+  height:40px;
+  width:40px;
+  font-size: 25px;
+}
+.pad{
+ margin-left: 10%;
+ margin-top: 5%;
+ 
+}
+.contain{
+  margin-top:10%;
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
